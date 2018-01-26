@@ -6,7 +6,8 @@
 # @Version : $Id$
 
 import os
-
+import requests
+from bs4 import BeautifulSoup
 from base64 import *
 from math import sqrt
 import tushare as ts
@@ -37,4 +38,24 @@ import tushare as ts
 #     aDict[data[0]] = data[2]
 # print(aDict)
 
-ts.get_h_data('600848',start='2017-03-01',end='2017-03-08')
+# ts.get_h_data('600848',start='2017-03-01',end='2017-03-08')
+# r=requests.get("https://www.baidu.com")
+# r.encoding='utf-8'
+# print(r.text)
+
+# url="https://www.amazon.cn/gp/product/B01M8L5Z3Y"
+# try:
+# 	kv={'user-agent':'Mozilla/5.0'}
+# 	r=requests.get(url,headers=kv)
+# 	r.raise_for_status()
+# 	r.encoding=r.apparent_encoding
+# 	print(r.text[1:1000])
+# except:
+# 	print("爬虫失败")
+
+# kv={'wd':'Python'}
+# r=requests.get("https://www.baidu.com/s",params=kv)
+# print(r.status_code)
+# print(r.request.url)
+soup=BeautifulSoup('<p>Data</p>','html.parser')
+print(soup.prettify())
