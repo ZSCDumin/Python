@@ -6,6 +6,7 @@
 # @Version : $Id$
 
 import os
+import re
 import requests
 from bs4 import BeautifulSoup
 from base64 import *
@@ -57,5 +58,5 @@ import tushare as ts
 # r=requests.get("https://www.baidu.com/s",params=kv)
 # print(r.status_code)
 # print(r.request.url)
-soup=BeautifulSoup('<p>Data</p>','html.parser')
-print(soup.prettify())
+# soup=BeautifulSoup('<p>Data</p>','html.parser')
+# print(soup.prettify())
