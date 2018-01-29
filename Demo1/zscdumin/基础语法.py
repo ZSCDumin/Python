@@ -60,3 +60,16 @@ import tushare as ts
 # print(r.request.url)
 # soup=BeautifulSoup('<p>Data</p>','html.parser')
 # print(soup.prettify())
+import os
+import base64
+
+
+def getThunderUrl(url):
+    return ("thunder://".encode("utf-8") + base64.b64encode(('AA' + url + 'ZZ').encode("utf-8"))).decode("utf-8")
+
+
+#url = "http://sample.sample/sample.jpg"
+url = "ed2k: // |file | %E7 % BB % 9D % E5 % 91 % BD % E5 % BE % 8B % E5 % B8 % 88.Better.Call.Saul.S01E01. % E4 % B8 % AD % E8 % 8B % B1 % E5 % AD % 97 % E5 % B9 % 95.BD - HR.AAC.1024x576.x264.mp4 | 530425499 | f8d6953d9ab0ed82b1f3de6c53c16c2d | h = doo6aros4ksn7vzetxkljh33i5zt555s | /"
+os.chdir("D:\\Program Files (x86)\\Thunder Network\\Thunder9\\Program\\")
+thunderUrl = getThunderUrl(url)
+os.system("Thunder.exe -StartType:DesktopIcon \"%s\"" % thunderUrl)

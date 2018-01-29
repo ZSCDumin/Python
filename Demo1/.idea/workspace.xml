@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c9b37a5-b126-4ee6-9d6f-2ffd090b43ab" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/zscdumin/test1.py" afterPath="$PROJECT_DIR$/zscdumin/test1.py" />
-      <change beforePath="$PROJECT_DIR$/../文档相似度检测程序/compare.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../文档相似度检测程序/test_1.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../文档相似度检测程序/test_2.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../文档相似度检测程序/《用Python玩转数据》项目——文档相似性比较.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zscdumin/基础语法.py" afterPath="$PROJECT_DIR$/zscdumin/基础语法.py" />
+      <change beforePath="$PROJECT_DIR$/zscdumin/网络爬虫/Requests/CrawBaiduStocksA.py" afterPath="$PROJECT_DIR$/zscdumin/网络爬虫/Requests/CrawBaiduStocksA.py" />
+      <change beforePath="$PROJECT_DIR$/zscdumin/网络爬虫/Requests/chinese_university_rank.py" afterPath="$PROJECT_DIR$/zscdumin/网络爬虫/Requests/chinese_university_rank.py" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,16 +19,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="chinese_university_rank.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zscdumin/爬虫/chinese_university_rank.py">
+      <file leaf-file-name="picture_download.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zscdumin/网络爬虫/Requests/picture_download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            <state relative-caret-position="1269">
+              <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <element signature="e#85#257#0" expanded="true" />
-                <element signature="e#295#522#0" expanded="true" />
-                <element signature="e#775#944#0" expanded="true" />
+                <element signature="e#175#190#0" expanded="true" />
+                <element signature="e#259#431#0" expanded="true" />
+                <element signature="e#834#1129#0" expanded="true" />
+                <element signature="e#1148#1381#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CrawBaiduStocksB.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zscdumin/网络爬虫/Requests/CrawBaiduStocksB.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1122">
+              <caret line="52" column="45" lean-forward="false" selection-start-line="51" selection-start-column="12" selection-end-line="52" selection-end-column="45" />
+              <folding>
+                <element signature="e#1725#1990#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,6 +54,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>hom</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -58,6 +74,7 @@
         <option value="$PROJECT_DIR$/zscdumin/test1.py" />
         <option value="$PROJECT_DIR$/zscdumin/compare.py" />
         <option value="$PROJECT_DIR$/zscdumin/爬虫/chinese_university_rank.py" />
+        <option value="$PROJECT_DIR$/zscdumin/网络爬虫/Requests/picture_download.py" />
       </list>
     </option>
   </component>
@@ -85,8 +102,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,19 +118,28 @@
               <item name="Demo1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Demo1" type="462c0819:PsiDirectoryNode" />
               <item name="zscdumin" type="462c0819:PsiDirectoryNode" />
-              <item name="爬虫" type="462c0819:PsiDirectoryNode" />
+              <item name="网络爬虫" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Demo1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo1" type="462c0819:PsiDirectoryNode" />
+              <item name="zscdumin" type="462c0819:PsiDirectoryNode" />
+              <item name="网络爬虫" type="462c0819:PsiDirectoryNode" />
+              <item name="Requests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="D:/Android/AndroidSDK" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="settings.editor.splitter.proportion" value="0.25278395" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
   </component>
@@ -131,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.chinese_university_rank">
+  <component name="RunManager" selected="Python.picture_download">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -203,6 +227,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Demo1" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zscdumin/compare.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="picture_download" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zscdumin/网络爬虫/Requests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Demo1" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zscdumin/网络爬虫/Requests/picture_download.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -294,16 +336,18 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.test1" />
       <item index="1" class="java.lang.String" itemvalue="Python.compare" />
       <item index="2" class="java.lang.String" itemvalue="Python.chinese_university_rank" />
+      <item index="3" class="java.lang.String" itemvalue="Python.picture_download" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.chinese_university_rank" />
-        <item index="1" class="java.lang.String" itemvalue="Python.compare" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test1" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.picture_download" />
+        <item index="1" class="java.lang.String" itemvalue="Python.chinese_university_rank" />
+        <item index="2" class="java.lang.String" itemvalue="Python.compare" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +384,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -350,7 +394,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24849217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -365,97 +409,88 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zscdumin/test1.py">
+    <entry file="file://$PROJECT_DIR$/zscdumin/网络爬虫/Requests/picture_download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zscdumin/compare.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="67" column="19" lean-forward="true" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#9#0" expanded="false" />
-            <element signature="e#55#223#0" expanded="false" />
-            <element signature="e#263#374#0" expanded="false" />
-            <element signature="e#419#803#0" expanded="false" />
-            <element signature="e#841#1289#0" expanded="false" />
-            <element signature="e#1342#1582#0" expanded="false" />
+            <element signature="e#175#190#0" expanded="true" />
+            <element signature="e#259#431#0" expanded="true" />
+            <element signature="e#834#1129#0" expanded="true" />
+            <element signature="e#1148#1381#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zscdumin/test1.py">
+    <entry file="file://$PROJECT_DIR$/zscdumin/网络爬虫/Requests/CrawBaiduStocksB.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1122">
+          <caret line="52" column="45" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="52" selection-end-column="45" />
+          <folding>
+            <element signature="e#1725#1990#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zscdumin/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zscdumin/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/zscdumin/爬虫/chinese_university_rank.py" />
+    <entry file="file://$PROJECT_DIR$/zscdumin/test1.py" />
+    <entry file="file://$PROJECT_DIR$/zscdumin/compare.py" />
+    <entry file="file://$PROJECT_DIR$/zscdumin/test1.py" />
+    <entry file="file://$PROJECT_DIR$/zscdumin/test1.py" />
+    <entry file="file://$PROJECT_DIR$/zscdumin/test1.py" />
     <entry file="file://$PROJECT_DIR$/zscdumin/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/zscdumin/compare.py" />
+    <entry file="file://$PROJECT_DIR$/zscdumin/test1.py" />
+    <entry file="file://$PROJECT_DIR$/zscdumin/爬虫/chinese_university_rank.py" />
     <entry file="file://D:/Program Files/Python36/Lib/re.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zscdumin/compare.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1692">
-          <caret line="67" column="19" lean-forward="false" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+        <state relative-caret-position="152">
+          <caret line="221" column="0" lean-forward="false" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
           <folding>
-            <element signature="e#0#9#0" expanded="false" />
-            <element signature="e#55#223#0" expanded="false" />
-            <element signature="e#263#374#0" expanded="false" />
-            <element signature="e#419#803#0" expanded="false" />
-            <element signature="e#841#1289#0" expanded="false" />
-            <element signature="e#1342#1582#0" expanded="false" />
+            <element signature="e#12433#13332#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zscdumin/test1.py">
+    <entry file="file://$PROJECT_DIR$/zscdumin/网络爬虫/Requests/CrawBaiduStocksA.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="60" column="22" lean-forward="false" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="180">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zscdumin/爬虫/chinese_university_rank.py">
+    <entry file="file://$PROJECT_DIR$/zscdumin/网络爬虫/Requests/CrowTaobaoPrice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        <state relative-caret-position="306">
+          <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zscdumin/网络爬虫/Requests/CrawBaiduStocksB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="52" column="45" lean-forward="false" selection-start-line="51" selection-start-column="12" selection-end-line="52" selection-end-column="45" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#85#257#0" expanded="true" />
-            <element signature="e#295#522#0" expanded="true" />
-            <element signature="e#775#944#0" expanded="true" />
+            <element signature="e#1725#1990#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zscdumin/网络爬虫/Requests/picture_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding>
+            <element signature="e#175#190#0" expanded="true" />
+            <element signature="e#259#431#0" expanded="true" />
+            <element signature="e#834#1129#0" expanded="true" />
+            <element signature="e#1148#1381#0" expanded="true" />
           </folding>
         </state>
       </provider>
