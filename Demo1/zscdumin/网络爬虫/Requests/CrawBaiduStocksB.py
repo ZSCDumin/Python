@@ -1,7 +1,6 @@
 # CrawBaiduStocksB.py
 import requests
 from bs4 import BeautifulSoup
-import traceback
 import re
 
 
@@ -62,7 +61,7 @@ def getStockInfo(lst, stockURL, fpath):
 def main():
     stock_list_url = 'http://quote.eastmoney.com/stocklist.html'
     stock_info_url = 'https://gupiao.baidu.com/stock/'
-    output_file = 'H:/BaiduStockInfo.txt'
+    output_file = 'G:/BaiduStockInfo.txt'
     slist = []
     getStockList(slist, stock_list_url)
     getStockInfo(slist, stock_info_url, output_file)
