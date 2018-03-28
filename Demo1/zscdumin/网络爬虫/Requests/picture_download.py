@@ -46,7 +46,7 @@ def printImgList(imgList, fPath):
 
 def main():
     imgList = []  # 图片URL列表
-    fPath = "G://images//"  # 图片存储路径
+    fPath = "F://images//"  # 图片存储路径
     for i in range(2):
         url = "http://www.xiaohuar.com/list-1-" + str(i + 1) + ".html"  # 爬取页面URL
         getImageList(imgList, url)
